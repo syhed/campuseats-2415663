@@ -5,9 +5,11 @@ function Header(){
         <header className="header">
             <h1 className="logo">CampusEats</h1>
             <nav className="nav">
-                <a href="/">Home</a>
-                <a href="/menu">Menu</a>
-                <a href="/cart">Cart ({cartCount})</a>
+                <a href="/">Vendors</a>
+                <a href="/menu">My Orders</a>
+                <a href="#" className="cart">
+                    Cart <span className="badge">{cartCount}</span>
+                </a>
             </nav>
         </header>
     )
