@@ -1,11 +1,3 @@
-/* =====================================================================
-   CampusEats starter CSS (BICS 3301): complete, Weeks 1 to 11
-   Paste ALL of this into src/index.css once, in Week 1, and leave it.
-   Rules for later weeks (cart, forms, login, dashboard, offline banner…)
-   do nothing until you build the components that use them.
-   You do not need to write CSS in this course; focus on React.
-   ===================================================================== */
-
 :root {
   --green: #00685e;
   --green-light: #e6f2f0;
@@ -154,3 +146,11 @@ a.card:hover { border-color: var(--green-light); }
   .nav { flex-wrap: wrap; gap: 0.4rem 1rem; font-size: 0.95rem; }
   .container { padding: 1rem; }
 }
+
+/* Week 3: favourite hearts and the "Favourites only" toggle (feature for matric digit 3) */
+.menu-card { position: relative; }
+.fav-btn { position: absolute; top: 0.6rem; right: 0.6rem; background: none; border: 0; font-size: 1.4rem;
+  line-height: 1; cursor: pointer; color: #8a94a0; }
+.fav-btn.active { color: #d6336c; }
+.fav-toggle { display: inline-flex; align-items: center; gap: 0.4rem; margin-bottom: 0.75rem;
+  font-size: 0.95rem; cursor: pointer; }
