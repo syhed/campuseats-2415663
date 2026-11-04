@@ -1,9 +1,5 @@
 function Footer() {
- return (
-  <footer className="footer">
-    <p>&copy; {new Date().getFullYear()} CampusEats &middot; BICS 3301, IIUM</p>
-  </footer>
- )
+  return <footer className="footer">CampusEats · BICS 3301 · Made at IIUM</footer>
 }
 
 export default Footer
